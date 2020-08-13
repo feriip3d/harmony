@@ -1,8 +1,7 @@
 <?php
-// Harmony PHP Framework - v1.0
+// Harmony PHP Framework - v1.0b (RC1)
 // Felipe Geroldi (https://github.com/feriip3d/harmony)
 define("ROOT_DIR", str_replace("webroot", '', __DIR__));
-ini_set("date.timezone",  "America/Sao_Paulo");
 require_once ROOT_DIR."config/bootstrap.php";
 use Harmony\Resources\Router;
 
