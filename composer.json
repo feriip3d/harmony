@@ -1,0 +1,22 @@
+{
+    "name": "feriip3d/harmony",
+    "description": "PHP MVC Framework",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Felipe Geroldi",
+            "email": "feriip3d@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Harmony\\": "src/Harmony",
+            "App\\": "src/App"
+        }
+    },
+    "require": {
+        "doctrine/collections": "^1.6",
+        "vlucas/phpdotenv": "^4.1",
+        "twig/twig": "^3.0"
+    }
+}

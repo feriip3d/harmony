@@ -1,0 +1,5 @@
+Options +FollowSymLinks
+RewriteEngine on
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /.*index(\.html|\.php|)?\ HTTP/
+RewriteRule ^(.*)index(\.html|\.php|)?$ /$1 [R=301,L]
+RewriteRule ^([a-zA-Z0-9\-\_\/]*)$ webroot/$1
